@@ -1,6 +1,8 @@
 # NCRN Landbirds database migration
 2024-04-29
 
+https://github.com/NCRN/NCRN_DM/issues/226
+
 ## Project description
 This extract-transform-load pipeline collects data from two MS Access databases, transforms the data to a SQL Server database schema, and then loads the data to that SQL Server database.  
 The pipeline enforces data integrity and referential integrity, along with business rules and error logic.  
@@ -32,7 +34,7 @@ Find an archived copy of the source files, pipeline, python environment, and dat
 
 ## Getting started
 1. Make a local clone of this repo.
-    - `$ git clone https://github.com/cwainright/birds_db_migration`
+    - `$ git clone https://github.com/NCRN/iss226_birds_db_migration`
 2. Reproduce the NCRN Landbirds pipeline's python environment.
     - `$ pip install requirements.txt`
     - Alternative: If your python environment has dependency problems while reproducing or running the pipeline, copy the python environment from source.
